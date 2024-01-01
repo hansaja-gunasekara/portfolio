@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import HansajaCV from "../assets/hansaja_resume.pdf";
 
 const Banner = () => {
   return (
@@ -65,7 +66,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex items-center mx-auto mb-12 max-w-max gap-x-6 lg:mx-0"
             >
-              <button className="btn btn-lg">Download CV</button>
+              <a
+                href={HansajaCV}
+                download="Hansaja-CV"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-lg">Download CV</button>
+              </a>
               {/* <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a> */}
