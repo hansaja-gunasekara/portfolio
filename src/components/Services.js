@@ -43,7 +43,6 @@ const Services = () => {
               I am a fullstack developer with a passion for creating seamless
               digital experiences.
             </h3>
-            <button className="btn btn-sm">See my work</button>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
