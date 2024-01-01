@@ -30,7 +30,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="mb-4 h3">I'm a 3rd year undergraduate at SLIIT.</h3>
-            <p className="mb-6 text-[23px]">
+            <p className="mb-6 text-[20px]">
               Versatile full-stack developer adept at creating end-to-end web
               solutions. With expertise in both front-end and back-end
               technologies, I am driven to build robust and scalable

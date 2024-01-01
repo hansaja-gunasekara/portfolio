@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: "Orbitron",
-      secondary: "Rajdhani",
+      secondary: "Inter",
       tertiary: "Aldrich",
     },
     container: {
