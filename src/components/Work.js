@@ -95,14 +95,17 @@ const Work = () => {
               <div
                 className={
                   "absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24 " +
-                  isSelected
-                    ? "hidden"
-                    : "block"
+                  (isSelected ? "hidden" : "block")
                 }
               >
                 <span className="text-gradient">Full-Stack</span>
               </div>
-              <div className="absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14">
+              <div
+                className={
+                  "absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14 " +
+                  (isSelected ? "hidden" : "block")
+                }
+              >
                 <span className="text-xl text-white">
                   Green Leaf Information Management System
                 </span>
