@@ -23,18 +23,21 @@ const Work = () => {
   const works = [
     {
       title: " Green Leaf Information Management System",
-      description: "",
+      description:
+        "The Green Leaf Information Management System is a robust platform crafted to address fraud in the tea industry's leaf collection and distribution. It offers end-to-end tracking for tea lorries, providing real-time visibility from collection points to the company's doorstep. With warehouse management capabilities, the system streamlines the storage and retrieval of tea leaves, optimizing inventory processes. Efficient transport management enhances logistical operations, allowing stakeholders to monitor and optimize transportation routes. Additionally, the system includes a supplier management module, promoting transparency and accountability among tea leaf providers within the supply chain.",
       githublink:
         "https://github.com/hansaja-gunasekara/MERN-Green-Leaf-Information-Management-System",
     },
     {
       title: "My Portfolio",
-      description: "",
+      description:
+        "My mobile-responsive portfolio is a sleek showcase of my skills and projects, ensuring an optimal viewing experience across devices. With a user-friendly interface, visitors can easily navigate through sections like skills and projects. The design adapts seamlessly to various screen sizes, providing a visually appealing and accessible presentation on both smartphones and tablets. This mobile responsiveness reflects my commitment to modern and inclusive web design practices.",
       githublink: "https://github.com/hansaja-gunasekara/portfolio",
     },
     {
       title: "Real time Weather App",
-      description: "",
+      description:
+        "Stay ahead of the weather with our real-time updates. Get accurate information on current conditions, temperature, humidity, and wind speed. Receive personalized notifications, including severe weather alerts, to stay prepared. Our intuitive interface and detailed maps help you plan your day confidently. Experience timely and transformative weather insights wherever your journey takes you.",
       githublink: "https://github.com/hansaja-gunasekara/React-JS-Weather-App",
     },
   ];
@@ -151,7 +154,7 @@ const Work = () => {
                 <span className="text-gradient">Frontend</span>
               </div>
               <div className="absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14">
-                <span className="text-3xl text-white">
+                <span className="text-xl text-white">
                   Real time Weather App
                 </span>
               </div>

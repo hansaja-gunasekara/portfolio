@@ -40,8 +40,11 @@ const Services = () => {
           >
             <h2 className="mb-6 h2 text-accent">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I am a fullstack developer with a passion for creating seamless
-              digital experiences.
+              I'm a fullstack developer passionate about making user-friendly
+              digital solutions. With skills in both front and back-end, I enjoy
+              tackling projects that create a positive impact. Excited to bring
+              my expertise to new opportunities and make technology accessible
+              for everyone.
             </h3>
           </motion.div>
           <motion.div
