@@ -97,7 +97,7 @@ const Work = () => {
                   "absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24 " +
                   isSelected
                     ? "hidden"
-                    : ""
+                    : "block"
                 }
               >
                 <span className="text-gradient">Full-Stack</span>
