@@ -107,7 +107,7 @@ const Work = () => {
                 }
               >
                 <span className="text-xl text-white">
-                  Green Leaf Information Management System
+                  Green Leaf Management
                 </span>
               </div>
             </div>
@@ -136,11 +136,21 @@ const Work = () => {
                 src={Img2}
                 alt=""
               />
-              <div className="absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24">
+              <div
+                className={
+                  "absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24 " +
+                  (isSelected ? "hidden" : "block")
+                }
+              >
                 <span className="text-gradient">Frontend</span>
               </div>
-              <div className="absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14">
-                <span className="text-xl text-white">My Portfolio</span>
+              <div
+                className={
+                  "absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14 " +
+                  (isSelected ? "hidden" : "block")
+                }
+              >
+                <span className="text-xl text-white">Portfolio</span>
               </div>
             </div>
             <div
@@ -160,10 +170,20 @@ const Work = () => {
                 src={Img3}
                 alt=""
               />
-              <div className="absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24">
+              <div
+                className={
+                  "absolute z-50 transition-all duration-500 -bottom-full left-12 group-hover:bottom-24 " +
+                  (isSelected ? "hidden" : "block")
+                }
+              >
                 <span className="text-gradient">Frontend</span>
               </div>
-              <div className="absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14">
+              <div
+                className={
+                  "absolute z-50 transition-all duration-700 -bottom-full left-12 group-hover:bottom-14 " +
+                  (isSelected ? "hidden" : "block")
+                }
+              >
                 <span className="text-xl text-white">
                   Real time Weather App
                 </span>

@@ -28,7 +28,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section className="py-16 lg:section" id="contact">
+    <section className="pb-16 lg:section" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div
@@ -52,7 +52,7 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex flex-col items-start flex-1 p-6 pb-24 border rounded-2xl gap-y-6"
+            className="flex flex-col items-start flex-1 p-6 pb-10 border rounded-2xl gap-y-6"
             ref={form}
             onSubmit={sendEmail}
           >
@@ -69,7 +69,7 @@ const Contact = () => {
               name="your_email"
             />
             <textarea
-              className="w-full py-12 mb-12 transition-all bg-transparent border-b outline-none resize-none placeholder:text-white focus:border-accent"
+              className="w-full py-12 mb-4 transition-all bg-transparent border-b outline-none resize-none placeholder:text-white focus:border-accent"
               placeholder="Your message"
               name="message"
             ></textarea>
