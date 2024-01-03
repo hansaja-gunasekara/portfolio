@@ -22,14 +22,14 @@ const PopupDialog = ({
       }
     >
       <div className="relative w-full max-w-2xl max-h-full p-4 ">
-        <div className="relative bg-white rounded-lg shadow dark:bg-gray-700 ">
+        <div className="relative rounded-lg shadow bg-slate-400 dark:bg-gray-700 ">
           <div className="flex items-center justify-between p-4 border-b rounded-t md:p-5 dark:border-gray-600">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
               {title}
             </h3>
             <button
               type="button"
-              className="inline-flex items-center justify-center w-8 h-8 text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 ms-auto dark:hover:bg-gray-600 dark:hover:text-white"
+              className="inline-flex items-center justify-center w-8 h-8 text-sm text-gray-400 bg-transparent bg-white rounded-lg hover:bg-gray-200 hover:text-gray-900 ms-auto dark:hover:bg-gray-600 dark:hover:text-white"
               data-modal-hide="default-modal"
               onClick={handleClose}
             >
@@ -53,13 +53,13 @@ const PopupDialog = ({
           </div>
 
           <div className="p-4 space-y-4 md:p-5">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              Github:{" "}
-              <a href={githublink} target="_blank">
+            <p className="text-xl font-bold leading-relaxed text-white dark:text-gray-400">
+              <span className="font-bold text-black">Github: </span>
+              <a className="underline" href={githublink} target="_blank">
                 {githublink}
               </a>
             </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+            <p className="text-base leading-relaxed text-white dark:text-gray-400">
               {description}
             </p>
           </div>
